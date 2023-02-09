@@ -1,9 +1,9 @@
-import React, { EventHandler } from "react";
+import React, { useState } from "react";
 import data from "../../assets/data.json";
 import "./Calendar.css";
 
 const Calendar = () => {
-  // const [available, setAvailable] = useState(false);
+  const [available, setAvailable] = useState(false);
 
   let dates: any = [];
 
@@ -26,13 +26,14 @@ const Calendar = () => {
   const clickHandler = (e: any) => {
     e.preventDefault();
     let clickedDate = e.target.innerHTML;
-    let availableDates = data.map((data) => data.Arnhem[2][clickedDate]);
+    let availableDates = data.map((data) => data.Arnhem[2][12]);
+    console.log(availableDates);
   };
 
   return (
     <div className="calendar">
       <h3 className="calendar__month">Februari</h3>
-      {dates.map((date) => (
+      {dates.map((date: any) => (
         <a
           href="#"
           className={`calendar__day ${date.available ? "available" : ""}`}
