@@ -1,12 +1,7 @@
 import './Navbar.css';
 
 export const Navbar = () => {
-    //JS functies hier
-    const title = "dit is een title";
-  
     return (
-      //HTML hier
-      <div>
         <nav className="navbar bg-body-tertiary">
           <form className="container-fluid justify-content-between">
             <button className="btn btn-outline-success me-2" type="button">
@@ -23,7 +18,6 @@ export const Navbar = () => {
             </button>
           </form>
         </nav>
-      </div>
     );
   };
   

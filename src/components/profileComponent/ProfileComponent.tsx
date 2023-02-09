@@ -8,11 +8,22 @@ export const ProfileComponent = () => {
     <div className={style.profileContainer}>
       <img className={style.profilePicture} src={img} />
 
-      <input type="text" value="Nieuwegein"></input>
-      <select>
-        <option value="Cap-LR">Capgemini Leidsche Rijn</option>
-        <option value="Cap-Eindhoven">Capgemini Engineering Leidsche Rijn</option>
-      </select>
+<div className="container-xl d-flex justify-content-center">
+<div className="d-flex flex-column align-items-start">
+      <div className="form-item mb-3 d-flex flex-column align-items-start">
+        <label className="form-label fw-semibold">Vertrekpunt</label>
+        <input type="text" value="Nieuwegein" className="form-control form-control-lg w-100 shadow"></input>
+      </div>
+
+      <div className="form-item mb-3 d-flex flex-column align-items-start">
+        <label className="form-label fw-semibold">Eindbestemming</label>
+        <select className="form-select form-select-lg w-100 shadow">
+          <option value="Cap-LR">Capgemini Leidsche Rijn</option>
+          <option value="Cap-Eindhoven">Capgemini Engineering Leidsche Rijn</option>
+        </select>
+      </div>
+</div>
+</div>
     </div>
   );
 };
