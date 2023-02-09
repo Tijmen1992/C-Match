@@ -1,0 +1,105 @@
+{
+  "Nieuwegein": {
+    "2": {
+      "9": [{
+          "name": "Ryan Kool",
+          "phone": "31652159345",
+          "location": "Nijpelsplantsoen 12",
+          "profile": "https://media.licdn.com/dms/image/C4D03AQGp-NfEz7oqXw/profile-displayphoto-shrink_800_800/0/1600867990626?e=1681344000&v=beta&t=1ppziA_ZtZ2riCnFd_3lZZyaU6LL2LiQnt88jQmvD1o",
+          "car": "Nissan Juke",
+          "spots": {
+            "total": "5",
+            "taken": "0"
+          }
+        }]
+      }
+    }
+  },
+  "Den Bosch": {
+    "2": {
+      "10": [{
+          "name": "Thomas Schippers",
+          "phone": "31612345678",
+          "location": "Zandzuigerstraat 14",
+          "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
+          "car": "BMW I4",
+          "spots": {
+            "total": "4",
+            "taken": "2"
+          }
+        }]
+      },
+      "13": [{
+          "name": "Thomas Schippers",
+          "phone": "31612345678",
+          "location": "Zandzuigerstraat 14",
+          "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
+          "car": "BMW I4",
+          "spots": {
+            "total": "4",
+            "taken": "3"
+          }
+        }]
+      },
+      "14": {
+          "name": "Thomas Schippers",
+          "phone": "31612345678",
+          "location": "Zandzuigerstraat 14",
+          "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
+          "car": "BMW I4",
+          "spots": {
+            "total": "4",
+            "taken": "0"
+          }
+        }
+      }
+    }
+  },
+  "Arnhem": {
+    "2": {
+      "12": [{
+          "name": "Jorine Froeling",
+          "phone": "31612345678",
+          "location": "Fuckspad 69",
+          "profile": "https://media.licdn.com/dms/image/C5603AQGue8RrwcLiig/profile-displayphoto-shrink_800_800/0/1555574214547?e=1681344000&v=beta&t=Atw0FVa5oLcTbtaWIcNPovu8tz569ilUB9UHQp0AL7A",
+          "car": "Opel Adam",
+          "spots": {
+            "total": "4",
+            "taken": "0"
+          }
+        }],
+      "13": [{
+          "name": "Rik van der Sar",
+          "phone": "31612345678",
+          "location": "Johan de Wittlaan 1",
+          "profile": "https://media.licdn.com/dms/image/C4D03AQEm0CB32kvJ_w/profile-displayphoto-shrink_800_800/0/1622452511482?e=1681344000&v=beta&t=Fw6aQuGDcTN832Y8EL-QnHYUKIajF3r50_t0fYkyh3o",
+          "car": "Hyundai Ioniq",
+          "spots": {
+            "total": "4",
+            "taken": "0"
+          }
+        }],
+      "14": [{
+          "name": "Rik van der Sar",
+          "phone": "31612345678",
+          "profile": "https://media.licdn.com/dms/image/C4D03AQEm0CB32kvJ_w/profile-displayphoto-shrink_800_800/0/1622452511482?e=1681344000&v=beta&t=Fw6aQuGDcTN832Y8EL-QnHYUKIajF3r50_t0fYkyh3o",
+          "car": "Hyundai Ioniq",
+          "spots": {
+            "total": "4",
+            "taken": "3"
+          }
+        }, {
+          "name": "Jorine Froeling",
+          "phone": "31612345678",
+          "location": "Fuckspad 69",
+          "profile": "https://media.licdn.com/dms/image/C5603AQGue8RrwcLiig/profile-displayphoto-shrink_800_800/0/1555574214547?e=1681344000&v=beta&t=Atw0FVa5oLcTbtaWIcNPovu8tz569ilUB9UHQp0AL7A",
+          "car": "Opel Adam",
+          "spots": {
+            "total": "4",
+            "taken": "0"
+          }
+        }]
+      }
+    }
+  }
+}
