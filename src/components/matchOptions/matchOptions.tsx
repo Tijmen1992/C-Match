@@ -1,8 +1,11 @@
+import data from "../../assets/data.json";
 export const MatchOptions = () => {
-  //JS functies hier
   const title = "Your Matches:";
-
-  // const matchOptions = [];
+  // data.map((item) => {
+  //   console.log(item);
+  // });
+  const matchOptions = data;
+  console.log(matchOptions);
   // const users = ["user1", "user2", "user3"];
   // const final = [];
   // for (let user of users) {
@@ -18,20 +21,11 @@ export const MatchOptions = () => {
             <div className="card-body">
               <h5 className="card-title">Voornaam Achternaam</h5>
               <p className="card-text">Ophaal locatie: Amsterdam</p>
-              <p className="card-text">Co2 uitstoot: </p>
+              <p className="card-text">Auto: Nissan Juke</p>
+              <p className="card-text">Co2: </p>
             </div>
           </div>
         </div>
-        {/* <div className="col">
-          <div className="card">
-            <img src="..." className="card-img-top" alt="" />
-            <div className="card-body">
-              <h5 className="card-title">Voornaam Achternaam</h5>
-              <p className="card-text">Ophaal locatie: Amsterdam</p>
-              <p className="card-text">Co2 uitstoot: </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );
