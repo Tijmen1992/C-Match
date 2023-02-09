@@ -30,31 +30,33 @@
             "taken": "2"
           }
         }
-      ]
-    },
-    "13": [
-      {
-        "name": "Thomas Schippers",
-        "phone": "31612345678",
-        "location": "Zandzuigerstraat 14",
-        "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
-        "car": "BMW I4",
-        "spots": {
-          "total": "4",
-          "taken": "3"
+      ],
+      "13": [
+        {
+          "name": "Thomas Schippers",
+          "phone": "31612345678",
+          "location": "Zandzuigerstraat 14",
+          "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
+          "car": "BMW I4",
+          "spots": {
+            "total": "4",
+            "taken": "3"
+          }
         }
-      }
-    ]
-  },
-  "14": {
-    "name": "Thomas Schippers",
-    "phone": "31612345678",
-    "location": "Zandzuigerstraat 14",
-    "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
-    "car": "BMW I4",
-    "spots": {
-      "total": "4",
-      "taken": "0"
+      ],
+      "14": [
+        {
+          "name": "Thomas Schippers",
+          "phone": "31612345678",
+          "location": "Zandzuigerstraat 14",
+          "profile": "https://media.licdn.com/dms/image/C4E03AQHiJcl5sRCp1Q/profile-displayphoto-shrink_800_800/0/1652095943528?e=1681344000&v=beta&t=7CfSNzAMCefNlguEtY92xAD_nm7z_WcZ1_xJM9cWE90",
+          "car": "BMW I4",
+          "spots": {
+            "total": "4",
+            "taken": "0"
+          }
+        }
+      ]
     }
   },
   "Arnhem": {
