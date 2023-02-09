@@ -28,7 +28,7 @@ const Calendar = () => {
       {dates.map((date) => (
         <a
           href="#"
-          className={`calendar__day ${available ? "available" : ""}`}
+          className={`calendar__day ${date.available ? "available" : ""}`}
         >
           <span>{date.day}</span>
         </a>
