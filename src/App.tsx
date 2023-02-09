@@ -1,13 +1,11 @@
-// import React from "react";
-// import logo from "./logo.svg";
 import "./App.css";
+import { MatchOptions } from "./components/matchOptions/matchOptions";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">test</header>
-    </div>
+    <>
+      <MatchOptions />
+    </>
   );
 }
-
 export default App;
