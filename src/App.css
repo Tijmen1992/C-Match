@@ -1,3 +1,7 @@
+html, body {
+  background: #BD8B9C
+}
+
 .App {
   text-align: left;
 }
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-item {
+  width: 350px;
 }
