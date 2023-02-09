@@ -1,0 +1,12 @@
+
+.profileContainer {
+  text-align: center;
+}
+
+.profilePicture {
+  width: 25%;
+  border-radius: 200px;
+  clear:both;
+  display: block;
+  margin: 0 auto;
+}
