@@ -1,7 +1,9 @@
+import { MatchOptions } from "../../components/matchOptions/matchOptions";
+
 export const Summary = () => {
   return (
     <>
-      <h1>TEST</h1>
+      <MatchOptions />
     </>
   );
 };

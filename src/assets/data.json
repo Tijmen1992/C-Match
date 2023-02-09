@@ -16,7 +16,7 @@
       ]
     }
   },
-  "Den Bosch" {
+  "Den Bosch": {
     "2": {
       "10": [
         {
@@ -59,8 +59,21 @@
       ]
     }
   },
-  "Arnhem" {
+  "Arnhem": {
     "2": {
+      "9": [
+        {
+          "name": "Ryan Kool",
+          "phone": "31652159345",
+          "location": "Nijpelsplantsoen 12",
+          "profile": "https://media.licdn.com/dms/image/C4D03AQGp-NfEz7oqXw/profile-displayphoto-shrink_800_800/0/1600867990626?e=1681344000&v=beta&t=1ppziA_ZtZ2riCnFd_3lZZyaU6LL2LiQnt88jQmvD1o",
+          "car": "Nissan Juke",
+          "spots": {
+            "total": "5",
+            "taken": "0"
+          }
+        }
+      ],
       "12": [
         {
           "name": "Jorine Froeling",
@@ -112,8 +125,4 @@
       ]
     }
   }
-<<<<<<< HEAD
-]
-=======
 }]
->>>>>>> 834790f89d86aad3a5749cf479594380b7a013c9

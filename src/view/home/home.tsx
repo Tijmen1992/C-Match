@@ -1,4 +1,4 @@
-import Calendar from "react-calendar";
+import Calendar from "../../components/calenderComp/Calendar";
 import { Navbar } from "../../components/navbar/Navbar";
 import { ProfileComponent } from "../../components/profileComponent/ProfileComponent";
 

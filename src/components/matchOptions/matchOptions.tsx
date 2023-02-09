@@ -5,29 +5,29 @@ export const MatchOptions = () => {
   for (let item of data) {
     final.push(
       <div key={item.toString()}>
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card" style={{ width: "18rem", margin: "0 auto" }}>
           <img
-            src={item.Arnhem[2][12].profile}
+            src="https://media.licdn.com/dms/image/C4D03AQGp-NfEz7oqXw/profile-displayphoto-shrink_800_800/0/1600867990626?e=1681344000&v=beta&t=1ppziA_ZtZ2riCnFd_3lZZyaU6LL2LiQnt88jQmvD1o"
             className="card-img-top"
             alt=""
           />
           <div className="card-body">
-            <h5 className="card-title">{item.Arnhem[2][12].name}</h5>
+            <h5 className="card-title">Ryan Kool</h5>
           </div>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
-              Ophaal locatie: {item.Arnhem[2][12].location}
+              Ophaal locatie: Nijpelsplantsoen 12
             </li>
-            <li className="list-group-item">Auto: {item.Arnhem[2][12].car}</li>
+            <li className="list-group-item">Auto: Nissan Juke (geel)</li>
             <li className="list-group-item">
-              Spots total: {item.Arnhem[2][12].spots.total}
+              Spots total: 4
             </li>
             <li className="list-group-item">
-              Spots left: {item.Arnhem[2][12].spots.taken}
+              Spots left: 4
             </li>
           </ul>
           <div className="card-body">
-            <a href="#" className="btn btn-primary">
+            <a href="/confirmation" className="btn btn-primary">
               Vroom Vroom!
             </a>
           </div>
@@ -44,11 +44,9 @@ export const MatchOptions = () => {
   //   final.push(<li key={user}>{user}</li>);
   // }
   return (
-    <div className="container">
-      <h1> {title}</h1>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        <div>{final}</div>
-      </div>
+    <div className="">
+      <h1 style={{ margin: "25px 0", textAlign: "center" }}>{title}</h1>
+        <div style={{ textAlign: "center" }}>{final}</div>
     </div>
   );
 };

@@ -21,8 +21,9 @@
     width: 150px;
     height: 150px;
     object-fit: cover;
-    clip-path: circle(75px at center);
+    border-radius: 20000px;
     margin-bottom: 16px;
+    border: 5px solid #AF125A;
 }
 
 .match-item__name {

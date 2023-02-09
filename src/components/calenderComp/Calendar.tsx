@@ -24,7 +24,6 @@ const Calendar = () => {
   console.log(dates);
 
   const clickHandler = (e: any) => {
-    e.preventDefault();
     let clickedDate = e.target.innerHTML;
     let availableDates = data.map((data) => data.Arnhem[2][12]);
     console.log(availableDates);
@@ -35,7 +34,7 @@ const Calendar = () => {
       <h3 className="calendar__month">Februari</h3>
       {dates.map((date: any) => (
         <a
-          href="#"
+          href="/summary"
           className={`calendar__day ${date.available ? "available" : ""}`}
           onClick={clickHandler}
         >

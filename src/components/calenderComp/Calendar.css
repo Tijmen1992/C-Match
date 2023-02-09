@@ -4,6 +4,13 @@
   grid-template-columns: repeat(7, 1fr);
   gap: 5px;
   border: 1px solid black;
+  margin: 25px auto 25px;
+  padding: 10px;
+}
+
+.calendar__day {
+  width: 40px;
+  text-align: center;
 }
 
 .calendar__month {

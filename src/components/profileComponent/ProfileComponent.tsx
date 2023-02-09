@@ -19,7 +19,7 @@ export const ProfileComponent = () => {
           <label className="form-label fw-semibold">Eindbestemming</label>
           <select className="form-select form-select-lg w-100 shadow">
             <option value="Cap-LR">Capgemini Leidsche Rijn</option>
-            <option value="Cap-Eindhoven">Capgemini Engineering Leidsche Rijn</option>
+            <option value="Cap-Eindhoven">Capgemini Engineering Eindhoven</option>
           </select>
         </div>
       </div>
