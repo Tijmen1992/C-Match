@@ -1,11 +1,11 @@
-import React from "react";
+import React, { EventHandler } from "react";
 import data from "../../assets/data.json";
 import "./Calendar.css";
 
 const Calendar = () => {
   // const [available, setAvailable] = useState(false);
 
-  let dates = [];
+  let dates: any = [];
 
   let availableDates = data.map((data) => data.Arnhem[2]);
   function gatherTopLevelNumbers(obj: any): string[] {
@@ -22,6 +22,13 @@ const Calendar = () => {
     dates.push({ day: i, available: numberArray.includes(i) });
   }
   console.log(dates);
+
+  const clickHandler = (e: any) => {
+    e.preventDefault();
+    let clickedDate = e.target.innerHTML;
+    let availableDates = data.map((data) => data.Arnhem[2][clickedDate]);
+  };
+
   return (
     <div className="calendar">
       <h3 className="calendar__month">Februari</h3>
@@ -29,6 +36,7 @@ const Calendar = () => {
         <a
           href="#"
           className={`calendar__day ${date.available ? "available" : ""}`}
+          onClick={clickHandler}
         >
           <span>{date.day}</span>
         </a>
