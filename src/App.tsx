@@ -1,14 +1,10 @@
 import "./App.css";
-import { ProfileComponent } from "./components/profileComponent/ProfileComponent";
-import { Navbar } from "./components/navbar/Navbar";
-import Calendar from "./components/calenderComp/Calendar";
+import { Home } from "./view/home/home";
 
 function App() {
   return (
     <>
-      <Calendar />
-      <Navbar />
-      <ProfileComponent />
+      <Home />
     </>
   );
 }
