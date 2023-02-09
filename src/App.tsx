@@ -1,13 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { ProfileComponent } from "./components/profileComponent/ProfileComponent";
+import { Navbar } from "./components/navbar/Navbar";
 import Calendar from "./components/calenderComp/Calendar";
 
 function App() {
   return (
-    <div>
+    <>
       <Calendar />
-    </div>
+      <Navbar />
+      <ProfileComponent />
+    </>
   );
 }
 
