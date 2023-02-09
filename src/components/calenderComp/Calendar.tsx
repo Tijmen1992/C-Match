@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-
+import data from "../../assets/data.json";
 import "./Calendar.css";
 
 const Calendar = () => {
   const [available, setAvailable] = useState(false);
 
-  const dates = [
-    { day: 1, available: true },
-    { day: 2, available: false },
-    { day: 3, available: true },
-  ];
+  let dates = [];
+
+  for (let i = 1; i <= 28; i++) {
+    dates.push({ day: i });
+  }
 
   return (
     <div className="calendar">
