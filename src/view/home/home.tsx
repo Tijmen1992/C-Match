@@ -6,8 +6,8 @@ export const Home = () => {
   return (
     <>
       <Navbar />
-      <Calendar />
       <ProfileComponent />
+      <Calendar />
     </>
   );
 };
