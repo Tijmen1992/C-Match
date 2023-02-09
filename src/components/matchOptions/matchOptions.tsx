@@ -13,25 +13,23 @@ export const MatchOptions = () => {
           />
           <div className="card-body">
             <h5 className="card-title">{item.Arnhem[2][12].name}</h5>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                Ophaal locatie: {item.Arnhem[2][12].location}
-              </li>
-              <li className="list-group-item">
-                Auto: {item.Arnhem[2][12].car}
-              </li>
-              <li className="list-group-item">
-                Spots total: {item.Arnhem[2][12].spots.total}
-              </li>
-              <li className="list-group-item">
-                Spots left: {item.Arnhem[2][12].spots.taken}
-              </li>
-            </ul>
-            <div className="card-body">
-              <a href="#" className="card-link">
-                Another link
-              </a>
-            </div>
+          </div>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
+              Ophaal locatie: {item.Arnhem[2][12].location}
+            </li>
+            <li className="list-group-item">Auto: {item.Arnhem[2][12].car}</li>
+            <li className="list-group-item">
+              Spots total: {item.Arnhem[2][12].spots.total}
+            </li>
+            <li className="list-group-item">
+              Spots left: {item.Arnhem[2][12].spots.taken}
+            </li>
+          </ul>
+          <div className="card-body">
+            <a href="#" className="btn btn-primary">
+              Vroom Vroom!
+            </a>
           </div>
         </div>
       </div>
